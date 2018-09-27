@@ -9,6 +9,11 @@
 
 
 // 'check' button toggles strikethrough 
+function strikeButton(){
+  $('button').on('click', '.shopping-item-toggle', function(event){
+    console.log('wowee');
+  } );
+}
 // 'delete' button removes from DOM
 
 function listInput(){
