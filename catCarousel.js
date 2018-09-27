@@ -6,4 +6,6 @@ $('main').on('click', '.thumbnails',function(event){
   $('.hero > img').attr('src',event.target.src);
   // console.log(event.target.src);
   //console.log($('.hero > img'));
+  $('.hero > img').attr('alt',event.target.alt);
+  //console.log($('.hero > img').attr('alt'));
 });
